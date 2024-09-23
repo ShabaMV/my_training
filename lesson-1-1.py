@@ -14,3 +14,5 @@ print(name[::-1]);
 
 # question 5
 print(name[1::2]);
+
+#ver 2
