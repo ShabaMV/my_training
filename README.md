@@ -8,6 +8,8 @@
 ```python
 print('Hello, World')
 ```
+<h4>study progress</h4>
+
 - [x] Block #0
 - [x] Block #1
 - [ ] Block #2
@@ -31,3 +33,6 @@ print('Hello, World')
 - [ ] Block #20. Diploma
 
 <=============== EOL
+
+<img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+
