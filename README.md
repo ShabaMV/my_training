@@ -14,6 +14,11 @@ print(f'Hello, {name}!')
 ```
 <h4>study progress</h4>
 
+<p align=center>
+  <img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+</p>
+
+
 - [x] Block #0
 - [x] Block #1
 - [ ] Block #2
@@ -36,7 +41,7 @@ print(f'Hello, {name}!')
 - [ ] Block #19
 - [ ] Block #20. Diploma
 
-<=============== EOL
+<-- EOF
 
-<img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+
 
