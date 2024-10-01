@@ -1,16 +1,38 @@
-
-``┌────────────────────────────────────────────────────────────────────────┐``<br>
-``│             учебные проекты для Urban Univercity на Python             │``<br>
-``└────────────────────────────────────────────────────────────────────────┘``
-
 <p align="center" style="padding: 40px; margin-top: 60px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="140">
 </p>
+<p align=center>
+  <img src='https://github.com/user-attachments/assets/304553af-c832-449f-82ff-94600b9427d3' width=800>
+</p>
+
+
+<h4>Wlcm!</h4>
 
 ```python
-print('Hello, World')
+name = input('Please enter your name:')
+print(f'Hello, {name}! Welcome.')
 ```
-<h4>study progress</h4>
+
+<h4>Me</h4>
+
+```python
+import datetime
+
+current_year = datetime.date.today().year
+me = {'name': 'Mike',
+       'sex': 'male',
+       'age': current_year - 1976,
+       'expirience': current_year - 2024,
+       'mood': 'keep calm & go to code'}
+print(me)
+```
+
+<h4>Study progress</h4>
+
+<p align=center>
+  <img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+</p>
+
 
 - [x] Block #0
 - [x] Block #1
@@ -34,7 +56,7 @@ print('Hello, World')
 - [ ] Block #19
 - [ ] Block #20. Diploma
 
-<=============== EOL
+<-- EOF
 
-<img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+
 
