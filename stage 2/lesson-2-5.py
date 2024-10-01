@@ -6,13 +6,13 @@ primes = list()
 not_primes = list()
 
 for i in numbers[1:15]:
-    existed_dividers_count = 0
+    is_prime = True
     for j in simple_numbers[0:i]:
         if (i % j == 0) and (j < i):
-            existed_dividers_count += 1
+            is_prime = False
         break
 
-    if (existed_dividers_count > 0):
+    if (is_prime == False):
         not_primes.append(i)
     else:
         primes.append(i)
