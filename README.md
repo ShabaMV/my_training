@@ -6,13 +6,28 @@
 </p>
 
 
-<h4>me</h4>
+<h4>Wlcm!</h4>
 
 ```python
 name = input('Please enter your name:')
-print(f'Hello, {name}!')
+print(f'Hello, {name}! Welcome.')
 ```
-<h4>study progress</h4>
+
+<h4>Me</h4>
+
+```python
+import datetime
+
+current_year = datetime.date.today().year
+me = {'name': 'Mike',
+       'sex': 'male',
+       'age': current_year - 1976,
+       'expirience': current_year - 2024,
+       'mood': 'keep calm & go to code'}
+print(me)
+```
+
+<h4>Study progress</h4>
 
 <p align=center>
   <img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
