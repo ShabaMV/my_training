@@ -10,7 +10,7 @@ for i in numbers[1:15]:
     for j in simple_numbers[0:i]:
         if (i % j == 0) and (j < i):
             is_prime = False
-        break
+            break
 
     if (is_prime == False):
         not_primes.append(i)
