@@ -1,7 +1,6 @@
-
-``┌────────────────────────────────────────────────────────────────────────┐``<br>
-``│             учебные проекты для Urban Univercity на Python             │``<br>
-``└────────────────────────────────────────────────────────────────────────┘``
+<p align=center>
+  <img src='https://github.com/user-attachments/assets/304553af-c832-449f-82ff-94600b9427d3' width=800>
+</p>
 
 <p align="center" style="padding: 40px; margin-top: 60px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="140">
