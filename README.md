@@ -30,13 +30,13 @@ print(me)
 <h4>Study progress</h4>
 
 <p align=center>
-  <img src="https://progress-bar.xyz/2/?scale=21&title=Study&width=400&progress_color=057200&progress_background=949694&color=07119c&suffix=%" alt="Progress">
+  <img src="https://progress-bar.xyz/14/?scale=100&title=--Study%20Progress--&width=600&progress_color=05ae09&progress_background=d8d8d8&color=07119c" alt="Progress">
 </p>
 
 
 - [x] Block #0
 - [x] Block #1
-- [ ] Block #2
+- [x] Block #2
 - [ ] Block #3
 - [ ] Block #4
 - [ ] Block #5
