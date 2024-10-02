@@ -24,3 +24,5 @@ for i in numbers:
             used_num.append(used_right_num)
 
 print(password_str)
+print(password_num)
+print(used_num)
