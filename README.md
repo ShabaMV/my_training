@@ -35,9 +35,9 @@ print(me)
 
 
 - [x] Block #0
-- [x] Block #1
-- [x] Block #2
-- [ ] Block #3 [**--------]
+- [x] Block #1 [=======]
+- [x] Block #2 [=======]
+- [ ] Block #3 [====-=]
 - [ ] Block #4
 - [ ] Block #5
 - [ ] Block #6
