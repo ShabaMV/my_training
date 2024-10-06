@@ -7,7 +7,7 @@ def get_multiplied_digits(number):
     else:
         return first
 
-result = get_multiplied_digits(402030)
+result = get_multiplied_digits(4020300)
 print(result)
 
 # Решил закрепить знания по рекурсии, расчетом факториала. В задание не входит.
