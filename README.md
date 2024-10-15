@@ -30,7 +30,7 @@ print(me)
 <h4>Study progress</h4>
 
 <p align=center>
-  <img src="https://progress-bar.xyz/19/?scale=100&title=--Study%20Progress--&width=600&progress_color=05ae09&progress_background=d8d8d8&color=07119c" alt="Progress">
+  <img src="https://progress-bar.xyz/23/?scale=100&title=--Study%20Progress--&width=600&progress_color=05ae09&progress_background=d8d8d8&color=07119c" alt="Progress">
 </p>
 
 
