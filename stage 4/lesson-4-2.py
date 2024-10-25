@@ -4,5 +4,5 @@ def test_function():
     inner_function()
 
 # Ошибочно. Точнее выдаст ошибку, поскольку функция inner_function является вложенной в test_function и является
-# локальной функцией для test_function
+# локальной функцией для test_function.
 inner_function()
