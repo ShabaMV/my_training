@@ -13,12 +13,20 @@ print(result)
 # Решил закрепить знания по рекурсии, расчетом факториала. В задание не входит.
 # Для понимания работы рекурсии.
 
-def factorial(number):
-    if number == 1:
-        return number
-    else:
-        return number * factorial(number - 1)
+# def factorial(number):
+#     if number == 1:
+#         return number
+#     else:
+#         return number * factorial(number - 1)
+#
+# number = int(input("Введите значение для расчета факториала: "))
+# factor = factorial(number)
+# print(f"{number}! = {factor}")
 
-number = int(input("Введите значение для расчета факториала: "))
-factor = factorial(number)
-print(f"{number}! = {factor}")
+def summa(n):
+    if n == 0:
+        return 0
+    else:
+        return n + summa(n-1)
+
+print(summa(5))
