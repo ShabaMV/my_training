@@ -73,7 +73,7 @@ class UrTube():
                     else:
                         for counter in range(0,self.videos[video].duration):
                             self.videos[video].time_now = counter + 1
-                            time.sleep(0.1)
+                            time.sleep(1)
                             print(self.videos[video].time_now,end=' ')
                         print("Конец видео")
 
