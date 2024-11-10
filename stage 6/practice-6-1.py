@@ -1,17 +1,26 @@
 class Human:
     head = True
+    _legs = True
+    __arms = True
+
     def say_hello(self):
         print("Здравствуйте")
 
-class Student(Human):
     def about(self):
-        print("Я студент")
+        print(self.head)
+        print(self._legs)
+        print(self.__arms)
+
+class Student(Human):
+    pass
+    # def about(self):
+    #     print("Я студент")
 
 class Teacher(Human):
     pass
 
-student = Student()
-teacher = Teacher()
+human = Human()
+student=Student()
 
-student.say_hello()
-teacher.say_hello()
+print(dir(Human))
+print(student._Human__arms)
