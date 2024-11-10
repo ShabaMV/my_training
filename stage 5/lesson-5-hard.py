@@ -1,12 +1,12 @@
 import time
 
-class User():
+class User:
     def __init__(self, nickname, password, age):
         self.nickname = nickname
         self.password = hash(password)
         self.age = age
 
-class Video():
+class Video:
     def __init__(self, title, duration, time_now = 0, adult_mode = False):
         self.title = title
         self.duration = duration
@@ -14,7 +14,7 @@ class Video():
         self.adult_mode = adult_mode
 
 
-class UrTube():
+class UrTube:
     def __str__(self):
         return self.lower()
 
