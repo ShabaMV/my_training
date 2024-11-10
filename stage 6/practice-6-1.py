@@ -1,26 +1,25 @@
 class Human:
-    head = True
-    _legs = True
-    __arms = True
+    def __init__(self, name, group):
+        self.name = name
+        super().__init__(group)
 
-    def say_hello(self):
-        print("Здравствуйте")
+    def info(self):
+        print(f"Привет, мну звт {self.name}")
 
+class StudentGroup:
+    def __init__(self, group):
+        self.group = group
     def about(self):
-        print(self.head)
-        print(self._legs)
-        print(self.__arms)
+        print(f"{self.name} учится в группе {self.group}")
 
-class Student(Human):
-    pass
-    # def about(self):
-    #     print("Я студент")
+class Student(Human, StudentGroup):
+    def __init__(self,name, place, group):
+        super().__init__(name, group)
+        self.place = place
+        super().info()
 
-class Teacher(Human):
-    pass
-
-human = Human()
-student=Student()
-
-print(dir(Human))
-print(student._Human__arms)
+# human = Human('Михаил')
+# print(human.name)
+student = Student('Макс', 'UrbanUnivercity',202)
+student.about()
+# print(Student.mro())
