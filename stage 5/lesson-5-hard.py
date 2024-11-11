@@ -16,16 +16,13 @@ class Video:
 
 class UrTube:
     def __str__(self):
-        return self.lower()
+        return self.title.lower()
 
-    def __contains__(self, value):
-        if value.lower() in self.lower():
-            return True
-        else:
-            return False
+    def __repr__(self):
+        return self.title.lower()
 
     def __eq__(self, value):
-        if isinstance(value, str) and self == value:
+        if isinstance(value, str) and self.title == value:
             return True
         else:
             return False
@@ -66,17 +63,20 @@ class UrTube:
         if self.current_user == None:
             print("Войдите в аккаунт, чтобы смотреть видео")
         else:
+            video_exist = 0
             for video in self.videos:
                 if video_to_play == video:
+                    video_exist = 1
                     if self.users[self.current_user].age <= 18:
                         print("Вам нет 18, пожалуйста покиньте страницу")
                     else:
                         for counter in range(0,self.videos[video].duration):
                             self.videos[video].time_now = counter + 1
-                            time.sleep(1)
+                            time.sleep(0.3)
                             print(self.videos[video].time_now,end=' ')
                         print("Конец видео")
-
+            if video_exist == 0:
+                print("Видеозапись не обнаружена")
 
 ur = UrTube()
 v1 = Video('Лучший язык программирования 2024 года', 200)
