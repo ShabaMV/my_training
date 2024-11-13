@@ -30,7 +30,7 @@ print(me)
 <h4>Study progress</h4>
 
 <p align=center>
-  <img src="https://progress-bar.xyz/23/?scale=100&title=--Study%20Progress--&width=600&progress_color=05ae09&progress_background=d8d8d8&color=07119c" alt="Progress">
+  <img src="https://progress-bar.xyz/28/?scale=100&title=--Study%20Progress--&width=600&progress_color=05ae09&progress_background=d8d8d8&color=07119c" alt="Progress">
 </p>
 
 
@@ -39,7 +39,7 @@ print(me)
 - [x] Block #2 [=======]
 - [x] Block #3 [======]
 - [x] Block #4 [=]
-- [ ] Block #5 [====-]
+- [x] Block #5 [=====]
 - [ ] Block #6 [===-]
 - [ ] Block #7
 - [ ] Block #8
