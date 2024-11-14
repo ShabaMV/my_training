@@ -41,7 +41,7 @@ print(me)
 - [x] Block #4 [=]
 - [x] Block #5 [=====]
 - [x] Block #6 [====]
-- [ ] Block #7
+- [ ] Block #7 [=----]
 - [ ] Block #8
 - [ ] Block #9
 - [ ] Block #10
