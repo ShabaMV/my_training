@@ -1,27 +1,18 @@
-# import io
-# from pprint import pprint
-#
-# name = "sample2.txt"
-# file = open(name,'r', encoding='utf-8')
-# print(file.tell())
-# pprint(file.read())
-# print(file.tell())
-# file.close()
+import tkinter
+from fileinput import filename
+from tkinter import filedialog
 
-import os
-from os import listdir
+def file_select():
+    filename = filedialog.askopenfilename(initialdir="/",title="Выберите файл", filetypes=(
+        ("Текствый файл",".txt"),("Все файлы","*")))
 
-# print("Текущая директория: ",os.getcwd())
-# if os.path.exists('second'):
-#     os.chdir('second')
-# else:
-#     os.mkdir('second')
-#     os.chdir('second')
-
-print("Текущая директория: ", os.getcwd())
-# os.makedirs(r'third\forth')
-print(os.listdir())
-file  = [f for f in os.listdir() if os.path.isfile(f)]
-dirs  = [d for d in os.listdir() if os.path.isdir(d)]
-print(dirs)
-print(os.stat(file[5]).st_size)
+window = tkinter.Tk()
+window.title("Проводник")
+window.geometry("350x350")
+window.configure(bg="black")
+window.resizable(False, False)
+text = tkinter.Label(window, text="Файл: ", width=50, height=5, background="silver", foreground="blue")
+text.grid(column=1, row=1)
+button_select = tkinter.Button(window, width=20, height=3, text = "Выбрать файл", foreground="blue", command=file_select())
+button_select.grid(column=1, row=2, pady=5)
+window.mainloop()
